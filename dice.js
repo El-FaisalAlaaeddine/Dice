@@ -9,10 +9,10 @@ document.getElementById('img2').setAttribute('src', imageSecondPlayer)
 
 
 if (FirstPlayerRandom > SecondPlayerRandom){
-    document.getElementById('id').innerHTML = "Player One wins!"
+    document.getElementById('id').innerHTML = "&#128681" +"Player One wins!"
 }
 else if (FirstPlayerRandom < SecondPlayerRandom){
-    document.getElementById('id').innerHTML = "Player Two wins!"
+    document.getElementById('id').innerHTML = "&#128681" +"Player Two wins!"
 
 }
 else{
